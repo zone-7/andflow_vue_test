@@ -10,7 +10,7 @@
    @canvas_dblclick="canvas_dblclick"
    @canvas_change="canvas_change"
    >
-   </andflow>
+</andflow>
   
   <div class="toolbar">
     <button type="button" @click="getFlow">获取流程内容</button>
