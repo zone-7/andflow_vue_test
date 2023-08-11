@@ -1,4 +1,5 @@
 <template>
+<div>
 <andflow id="andflow"  style="width:100%;height:600px;" 
   ref="andflowDesigner"
   :model="model" :meta="meta" :tags="tags"
@@ -65,6 +66,7 @@
 
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
+  </div>
 </template>
 
 <script>
